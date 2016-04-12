@@ -1,11 +1,17 @@
 import java.awt.*;
+import java.awt.List;
 import java.awt.event.*;
 import java.sql.*;
 
 import javax.swing.*;
 import java.util.*;
+//import java.util.List;
+
 import javax.swing.*;
 import javax.swing.event.MouseInputAdapter;
+
+//import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
 import java.awt.print.*;
 
 class abc extends Frame implements ActionListener,ItemListener{	
@@ -152,7 +158,7 @@ List lt;
 		
 		String str=e.getActionCommand();
 		lt=new List();
-		add(lt);	
+		add((Component) lt);	
 		try{
 
 		if(str.equals("MAINMENU"))
@@ -554,7 +560,8 @@ List lt;
 	public static void main(String args[])
 	{
 		abc d=new abc();
-		d.addWindowListener(new winExit5());
+		 
+	//
 	}
 };
 class winExit5 extends WindowAdapter
