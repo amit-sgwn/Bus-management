@@ -561,13 +561,6 @@ List lt;
 	{
 		abc d=new abc();
 		 
-	//
+	d.addWindowListener(new winExit5());
 	}
 };
-class winExit5 extends WindowAdapter
-	{
-		public void windowClosing(WindowEvent we)
-		{
-			System.exit(0);
-		}
-	};

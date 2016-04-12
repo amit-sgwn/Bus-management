@@ -101,9 +101,6 @@ class BusSheduling extends Frame implements ActionListener
             System.out.println("JDBC DRIVER ERROR");
            return;
             }
-        
-        
-       
         //Creates connection to database
        /* try {
               Connection con1 = DriverManager.getConnection(DriverPrefix+DataSource,dbuser, dbpasswd);
@@ -135,12 +132,6 @@ class BusSheduling extends Frame implements ActionListener
 			//Shedule s=new Shedule();
 
 		//}
-
-
-
-
-
-
 
 		if(e.getSource()==exit)
 		{
